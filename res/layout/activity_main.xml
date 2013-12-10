@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	>
+
+	<TableLayout android:id="@+id/TableLayout01" android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<TableRow android:id="@+id/TableRow01" android:layout_width="fill_parent" android:layout_height="wrap_content">
+			<Button
+				android:text="Update"
+				android:id="@+id/UpdateButton"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content" 
+				android:layout_weight="1">
+			</Button>
+			<Button
+				android:text="Reload"
+				android:id="@+id/ReloadButton"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				 android:layout_weight="1">
+			</Button>
+		</TableRow>
+	</TableLayout>
+
+	<EditText
+		android:text=""
+		android:id="@+id/UpdateEdit"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+	</EditText>
+	<WebView
+		android:id="@+id/twitter_web"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:text=""/>
+</LinearLayout>
